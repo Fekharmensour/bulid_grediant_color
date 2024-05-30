@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="gredient-box"></div>
+        <div class="row options">
+            <div class="column direction">
+                <p>Directions</p>
+                <div class="select-box">
+                    <select >
+                        <option value="to top">Top</option>
+                        <option value="to right top">Right Top</option>
+                        <option value="to right">Right</option>
+                        <option value="to right bottom">Right bottom</option>
+                        <option value="to bottom">Bottom</option>
+                        <option value="to left bottom">Left Bottom</option>
+                        <option value="to left">Left</option>
+                        <option value="to left top" selected>Left top</option>
+                    </select>
+                </div>
+            </div>
+            <div class="column color">
+                <p>Colors</p>
+                <div class="inputs">
+                    <input type="color" value="#43df43">
+                    <input type="color" value="#4381df">
+                </div>
+            </div>
+        </div>
+        <textarea class="row">background: linear-gradient(to left top , #43df43 , #4381df);</textarea>
+        <div class="row button">
+            <button class="refresh">Refresh color</button>
+            <button class="copy">Copy Code</button>
+        </div>
+    </div>
+
+    <script src="jscripy.js" defer></script>
+</body>
+</html>
